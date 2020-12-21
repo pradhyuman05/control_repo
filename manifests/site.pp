@@ -5,6 +5,7 @@ node default {
     owner   => 'root',
   }
   file {'/root/new.json':
+    ensure => file,
     owner => 'root',
   }
 }
